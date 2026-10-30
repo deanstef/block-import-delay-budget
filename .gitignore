@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded Xatu days. Only the snapshot behind the published result is tracked.
+data/*.parquet
+data/*.part
+!data/beacon_api_eth_v1_events_block-2026-09-30.parquet
+
+# macOS
+.DS_Store
