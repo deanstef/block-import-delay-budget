@@ -11,7 +11,7 @@ Each slot lasts 12 s. A validator attests as soon as its node has imported the s
 
 ```text
                   slot n                                   slot n+1
-0 s           4 s                         12 s          4 s                        24 s
+0 s           4 s                         12 s          4 s                        12 s
 |-------------|---------------------------|-------------|---------------------------|
               ^                                         ^
               attestation deadline                      attestation deadline
